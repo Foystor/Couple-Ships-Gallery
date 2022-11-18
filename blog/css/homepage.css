@@ -1,0 +1,74 @@
+/* Anything smaller than first breakpoint 600px */
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: #ededed;
+}
+
+
+/* header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow {
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+/* content */
+/* links */
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+}
+
+/* cards */
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 15px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-detail {
+    font-size: 15px;
+    color: gray;
+}
+
+.read-more {
+    width: 100%;
+    text-align: start;
+    margin-top: 20px;
+}
+
+
+/* footer */
+footer {
+    width: 100%;
+    color: gray;
+    text-align: center;
+    padding-block: 40px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
