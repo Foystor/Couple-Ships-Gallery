@@ -70,6 +70,11 @@ header {
     color: gray;
 }
 
+.photo {
+    max-width: 100%;
+    height: auto;
+}
+
 .read-more {
     width: 100%;
     text-align: start;
