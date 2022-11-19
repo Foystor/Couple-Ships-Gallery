@@ -59,10 +59,6 @@ header {
     flex: 1 0 auto;
 }
 
-.card-title {
-    margin: 0;
-}
-
 .card-item {
     display: flex;
     flex-direction: column;
@@ -71,6 +67,19 @@ header {
     padding: 10px 30px;
     background-color: white;
     border-radius: 10px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.read-more {
+    text-decoration: none;
+    color: black;
+}
+
+.read-more:hover {
+    color: cornflowerblue;
 }
 
 .card-detail {
@@ -84,10 +93,9 @@ header {
     height: auto;
 }
 
-.read-more {
+.date {
     width: 100%;
     text-align: start;
-    color: cornflowerblue;
 }
 
 
