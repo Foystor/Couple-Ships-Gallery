@@ -1,15 +1,15 @@
 /* Anything smaller than first breakpoint 600px */
 html {
     height: 100%;
-    padding: 0 20px;
 }
 
 
-body {
+.page-body {
     display: flex;
     flex-direction: column;
     gap: 60px;
     height: 100%;
+    padding: 0 20px;
     background-color: #ededed;
     font-family: Arial, sans-serif;
 }
@@ -115,7 +115,7 @@ body {
 
 /* Medium Screens */
 @media (min-width: 600px) and (max-width: 900px) {
-    body {
+    .page-body {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr 4fr 1fr;
@@ -155,7 +155,7 @@ body {
 
 /* Large Screens */
 @media (min-width: 900px) {
-    body {
+    .page-body {
         display: grid;
         grid-template-columns: 1fr 4fr;
         grid-template-rows: 1fr 4fr 1fr;
