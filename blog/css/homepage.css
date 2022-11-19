@@ -1,7 +1,6 @@
 /* Anything smaller than first breakpoint 600px */
 html {
     height: 100%;
-    flex: 0 0 auto;
 }
 
 
@@ -38,7 +37,6 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    flex: 0 0 auto;
     font-size: large;
 }
 
@@ -84,5 +82,4 @@ footer {
     padding-block: 40px;
     background-color: white;
     border-radius: 10px 10px 0 0;
-    flex: 0 0 auto;
 }
