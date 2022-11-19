@@ -16,7 +16,7 @@ body {
 
 
 /* header */
-header {
+.page-header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -100,7 +100,7 @@ header {
 
 
 /* footer */
-footer {
+.page-footer {
     color: gray;
     text-align: center;
     padding-block: 40px;
@@ -127,7 +127,7 @@ footer {
 
 
     /* header */
-    header {
+    .page-header {
         grid-area: hd;
         align-items: flex-start;
     }
@@ -147,7 +147,7 @@ footer {
 
 
     /* footer */
-    footer {
+    .page-footer {
         grid-area: ft;
     }
 }
@@ -167,7 +167,7 @@ footer {
 
 
     /* header */
-    header {
+    .page-header {
         grid-area: hd;
         align-items: flex-start;
     }
@@ -188,7 +188,7 @@ footer {
 
 
     /* footer */
-    footer {
+    .page-footer {
         grid-area: ft;
     }
 }
