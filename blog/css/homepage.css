@@ -46,21 +46,27 @@ header {
 .cards {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: minmax(200px, auto);
+    grid-auto-rows: minmax(500px, auto);
     grid-gap: 15px;
     flex: 1 0 auto;
+}
+
+.card-title {
+    margin: 0;
 }
 
 .card-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px 20px 30px;
+    justify-content: space-around;
+    padding: 10px 30px;
     background-color: white;
     border-radius: 10px;
 }
 
 .card-detail {
+    margin: 0;
     font-size: 15px;
     color: gray;
 }
@@ -68,7 +74,6 @@ header {
 .read-more {
     width: 100%;
     text-align: start;
-    margin-top: 20px;
 }
 
 
