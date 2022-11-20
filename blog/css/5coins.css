@@ -124,7 +124,6 @@
         grid-template-areas:
             "pic name"
             "info info";
-        gap: 0 20px;
     }
 
     .character-img {
