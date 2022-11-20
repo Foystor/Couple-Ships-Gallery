@@ -1,0 +1,29 @@
+/* css for common use */
+html {
+    background-color: #ededed;
+    font-family: Arial, sans-serif;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-extra {
+    color: gray;
+}
+
+/* remove default margin */
+.no-margin {
+    margin: 0;
+}
+
+/* center post images */
+.center-figure {
+    text-align: center;
+}
+
+.img-caption {
+    font-size: small;
+    color: gray;
+}
