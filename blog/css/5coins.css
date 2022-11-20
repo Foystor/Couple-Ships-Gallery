@@ -113,3 +113,30 @@
 .linkedin:hover {
     background-color: black;
 }
+
+
+/* Medium Screens */
+@media (min-width: 600px) and (max-width: 900px) {
+    .character {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-auto-rows: minmax(40px, auto);
+        grid-template-areas:
+            "pic name"
+            "info info";
+        gap: 0 20px;
+    }
+
+    .character-img {
+        grid-area: pic;
+        justify-self: end;
+    }
+
+    .character-name {
+        grid-area: name;
+    }
+
+    .character-info {
+        grid-area: info;
+    }
+}
