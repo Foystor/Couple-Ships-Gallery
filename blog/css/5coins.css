@@ -140,3 +140,29 @@
         grid-area: info;
     }
 }
+
+
+/* Large Screens */
+@media (min-width: 900px) {
+    .character {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-auto-rows: minmax(20px, auto);
+        grid-template-areas:
+            "pic name"
+            "pic info";
+    }
+
+    .character-img {
+        grid-area: pic;
+        justify-self: start;
+    }
+
+    .character-name {
+        grid-area: name;
+    }
+
+    .character-info {
+        grid-area: info;
+    }
+}
